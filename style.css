@@ -5,6 +5,7 @@ body{
 span{
     color: orange;
 }
+
 .stay-focused{
     font-size: 80px;
     border: solid white;
@@ -20,7 +21,7 @@ span{
     text-decoration: none;
     background-image: linear-gradient(orange ,yellow);
     border-radius: 5px;
-    padding: 10px 10px;
+    padding: 12px 10px;
     font-weight: 700;
 }
 .half-width{
@@ -72,26 +73,36 @@ span{
     background-position: left;
     background-size: 150px;
 }
-.global-part{
-    background-image: url(images/shapes/shape-1.png);
-    background-repeat: no-repeat;
-    background-position: right;
-    background-size: 150px;
-}
-#footer{
-    background-color: black;
-
-    
-}
-footer p{
-   
-    text-align: center;
-    color: white;
-}
 .contact-part{
-    background-color: gray;
+    display: flex;
+    text-align: center;
+    background-color: wheat;
     background-repeat: no-repeat;
     background-position: left;
     background-size: 400px;
+    
+    
+}
+.form{
+  color: black;
+  opacity: 1;  
+  padding-bottom: 10px;
+}
+
+
+#footer{
+    background-color: black;
+    height: 80px;
     padding: 10px;
+      
+}
+#contact{
+    text-align: center;
+    font-size: 50px;
+    font-weight: 700;
+}
+footer p{
+    
+    text-align: center;
+    color: white;
 }
