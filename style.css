@@ -5,25 +5,41 @@ body{
 span{
     color: orange;
 }
+p{
+    font-size: 18px;
+    opacity: 0.9;
+    padding: 10px 10px;
+    
+}
+h2{
+    font-size: 30px;
+    padding: 10px;
+}
+h3{
+    padding: 10px;
+}
 
 .stay-focused{
-    font-size: 80px;
+    font-size: 60px;
+    font-family:'Kanit', sans-serif;
     border: solid white;
     border-left-color: orange;
     padding: 10px 8px;
 }
-.middle-header{
-    text-align: center;
-    font-size: 50px;
-    font-weight: 700;
-}
 .explore{
     text-decoration: none;
-    background-image: linear-gradient(orange ,yellow);
+    background-image: linear-gradient(orange ,beige );
+    color: black;
     border-radius: 5px;
-    padding: 12px 10px;
+    padding: 10px 10px;
+    font-weight: 600;
+}
+.middle-header{  
+    text-align: center;
+    font-size: 45px;
     font-weight: 700;
 }
+
 .half-width{
     width: 50%;
     
@@ -34,20 +50,20 @@ span{
 }
 .half-width-middle{
     width: 33%;
-    height: auto;
-    padding: 10px;
+    padding: 5px;
     margin: 10px;
-    border-radius: 8px;
+    border-radius: 10px;
     
 }
+
+
 .mission{
-    background-color:rosybrown;
-    width: 30%;
-    
+    background-color: peachpuff;
+    width: 30%; 
 
 }
 .vision{
-    background-color:salmon;
+    background-color: paleturquoise;
     width: 30%;
     
 }
@@ -76,7 +92,7 @@ span{
 .contact-part{
     display: flex;
     text-align: center;
-    background-color: wheat;
+    background-color: whitesmoke;
     background-repeat: no-repeat;
     background-position: left;
     background-size: 400px;
