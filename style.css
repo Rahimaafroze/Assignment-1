@@ -1,0 +1,38 @@
+body{
+    
+    margin: 5px;
+}
+
+span{
+    color: orange;
+}
+.stay-focused{
+    font-size: 80px;
+    border: solid white;
+    border-left-color: orange;
+    padding: 10px 8px;
+}
+.middle-header{
+    text-align: center;
+    font-size: 50px;
+    font-weight: 700;
+}
+.explore{
+    text-decoration: none;
+    background-image: linear-gradient(orange ,yellow);
+    border-radius: 5px;
+    padding: 10px 10px;
+    font-weight: 700;
+}
+.half-width{
+    width: 50%;
+    
+}
+.half-width img{
+    width: 50%;
+    margin-top: 10px;
+}
+.flexible-container{
+    display: flex;
+    padding: 70px 70px;
+}
