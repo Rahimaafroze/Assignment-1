@@ -1,6 +1,5 @@
 body{
-    
-    margin: 5px;
+      margin: 5px;
 }
 
 span{
@@ -33,7 +32,7 @@ span{
     margin-top: 10px;
 }
 .half-width-middle{
-    width: 35%;
+    width: 33%;
     height: auto;
     padding: 10px;
     margin: 10px;
@@ -60,4 +59,39 @@ span{
 .flexible-container{
     display: flex;
     padding: 70px 70px;
+}
+
+.illustrators{
+    height: 150px;
+    width:  150px;
+    padding-top: 15px;
+}
+.develop-part{
+    background-image: url(images/shapes/shape-1.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: 150px;
+}
+.global-part{
+    background-image: url(images/shapes/shape-1.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: 150px;
+}
+#footer{
+    background-color: black;
+
+    
+}
+footer p{
+   
+    text-align: center;
+    color: white;
+}
+.contact-part{
+    background-color: gray;
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: 400px;
+    padding: 10px;
 }
